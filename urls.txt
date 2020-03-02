@@ -1,0 +1,6 @@
+https://registration-pal-training.cfapps.io/users/1
+https://registration-pal-training.cfapps.io/accounts?ownerId=1
+https://registration-pal-training.cfapps.io/projects?accountId=1
+https://allocations-pal-training.cfapps.io/allocations?projectId=1
+https://backlog-pal-training.cfapps.io/stories?projectId=1
+https://timesheets-pal-training.cfapps.io/time-entries?userId=1

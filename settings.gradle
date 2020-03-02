@@ -20,4 +20,7 @@ include "databases:backlog-database"
 include "databases:registration-database"
 include "databases:timesheets-database"
 
+include "platform-services:eureka-server"
+
 include "integration-test"
+
