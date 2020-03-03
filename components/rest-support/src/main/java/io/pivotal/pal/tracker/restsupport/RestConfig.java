@@ -11,8 +11,7 @@ import org.springframework.web.client.RestTemplate;
 
 @Configuration
 public class RestConfig {
-    @LoadBalanced
-    @Bean
+
     public RestOperations restOperations() {
         return new RestTemplate();
     }
