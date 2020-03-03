@@ -2,5 +2,8 @@ dependencies {
     compile project(":components:rest-support")
     compile "org.springframework:spring-jdbc:$springVersion"
 
+    compile "com.netflix.hystrix:hystrix-javanica:1.5.18"
+    compile "org.springframework.cloud:spring-cloud-starter-netflix-hystrix:$springCloudCommonsVersion"
+
     testCompile project(":components:test-support")
 }
